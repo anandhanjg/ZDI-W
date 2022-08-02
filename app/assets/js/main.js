@@ -30,7 +30,7 @@ function zohoInvoke(){
          let tbody=document.querySelector("tbody");
 
          if(tickets.length==0){
-            tbody.innerHTML=`<tr><td colspan="5"><h6>No Data Found</h6><td></tr>`;
+            tbody.innerHTML=`<tr><td colspan="5" style="text-align:center;"><h6>No Tickets Found</h6><td></tr>`;
             return;
          }
 
